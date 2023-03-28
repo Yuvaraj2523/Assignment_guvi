@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				alert(xhr.responseText);
 			}
 		};
-		xhr.open('POST', '../php/.php', true);
+		xhr.open('POST', '../php/profile.php', true);
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 		xhr.send(new FormData(form));
 	});
