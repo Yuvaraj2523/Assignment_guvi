@@ -1,0 +1,29 @@
+body{
+    padding:50px;
+  }
+
+  img{
+  
+    height: 550px; 
+    width: 750px; 
+    margin-left:50px; 
+    background-repeat:no-repeat; 
+    padding-left: 10px;
+    /* margin-bottom:10px; */
+  }
+
+  h2{
+    padding-bottom: 70px;
+  }
+  
+.container{
+    max-width: 100%;
+    margin:auto auto;
+    padding:30px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cen{
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+}
